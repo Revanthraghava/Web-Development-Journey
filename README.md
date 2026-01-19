@@ -13,3 +13,9 @@ focusing on hands-on projects.
 - Styled HTML using internal CSS
 - Improved spacing and readability
 - Practiced margin, padding, and text alignment
+
+- ## Day 3 – JavaScript Basics
+- Introduced JavaScript for interactivity
+- Handled button click events
+- Read user input and applied conditional logic
+
