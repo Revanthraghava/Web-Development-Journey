@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>FEEDBACK</title>
+            <style>
+                body{
+                    background-color: lightpink;
+                }
+                h1{
+                    text-align: center;
+                    color: blue;
+                }
+                h2{
+                    text-align: center;
+                    color: blue;
+                }
+                h3{
+                    color: blue;
+                }
+                p{
+                    text-align: center;
+                    font-size: 16px;
+                }
+                div{
+                    margin: 30px auto;
+                    padding: 20px;
+                }
+                input{
+                    font-size: 16px;
+                }
+                button{
+                    font-size: 16px;
+                    margin: 5px;
+                    padding: 5px;
+                }
+            </style>
+        </head>
+     <body>   
+        <div>
+            <h1>FEEDBACK</h1>
+            <h2>TO KNOW YOU</h2>
+        </div>
+        <p id="message">This page is for taking feedback from our users.All users kindly give your feedback</p>
+        <div>
+            <h3>Enter your name</h3>
+            <input id="username">
+            <br>
+            <h3>Give your feedback</h3>
+            <input id="feedback">
+            <br>
+            
+            <button id="submit">Submit</button>
+            
+        </div>
+        <script>
+            let message = document.querySelector("#message");
+            let button = document.querySelector("#submit");
+            button.addEventListener("click",function(){
+            let input = document.querySelector("#username");
+            let name = input.value;
+            if (name===""){
+                
+                message.textContent = "NO NAME ENTERED"
+                message.style.color = "red";
+
+            }
+            else{
+                
+                message.textContent = "Hello "+ name
+                message.style.color = "green";
+                input.value = ""
+            }
+
+
+        })
+        </script>
+     </body>   
+</html>
