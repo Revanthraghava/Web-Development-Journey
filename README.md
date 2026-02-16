@@ -44,7 +44,7 @@ Enhanced a feedback page to provide better user experience using JavaScript.
 - Controlled input reset on successful submission
 - Clean DOM selection using IDs
 
-## - Basic backend with Nodejs and express
+## 6 - Basic backend with Nodejs and express
 - Node fundamentals
 - Modules
 - SYNC and ASYNC
